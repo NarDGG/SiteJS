@@ -44,4 +44,4 @@ const generateHeader = function() {
 	document.body.insertAdjacentHTML('afterbegin', header);
 }
 
-generateHeader();
+export default generateHeader;
